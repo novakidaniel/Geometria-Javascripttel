@@ -1,2 +1,2 @@
-# egy-ni-feladat
+# egyeni-feladat
 Egyéni beadandó. (javascript, bootstrap)
