@@ -1,0 +1,13 @@
+body {
+    background-color: blue;
+    text-align: center;
+}
+
+header {
+    height: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border: 10px solid gray;
+}
+
