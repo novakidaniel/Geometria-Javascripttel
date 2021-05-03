@@ -4,10 +4,16 @@ body {
 }
 
 header {
+    margin-top: 20px;
     height: 150px;
-    font-size: 100px;
     font-weight: bold;
     color: white;
     border: 10px solid gray;
 }
 
+header h1 {
+    text-align: center;
+    padding: 25px;
+    font-size: 60px;
+    text-decoration: underline;
+}
