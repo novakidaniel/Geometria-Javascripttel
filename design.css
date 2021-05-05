@@ -17,3 +17,7 @@ header h1 {
     font-size: 60px;
     text-decoration: underline;
 }
+
+.mx-auto {
+    width: 250px;
+}
