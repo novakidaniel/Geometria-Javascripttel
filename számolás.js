@@ -24,6 +24,17 @@ var a,felszín,térfogat;
 a = parseInt(document.getElementById("kocka").value);
 felszín = 6*(a*a);
 térfogat = a*a*a;
-document.getElementById("kkerület").innerHTML="A kocka felszíne: "+felszín+" cm²";
-document.getElementById("kterület").innerHTML="A kocka térfogata: "+térfogat+" cm³";
+document.getElementById("kfelszín").innerHTML="A kocka felszíne: "+felszín+" cm²";
+document.getElementById("ktérfogat").innerHTML="A kocka térfogata: "+térfogat+" cm³";
+}
+
+function téglatest( )
+{
+var thosszúság = document.getElementById('thosszúság').value;
+var tszélesség = document.getElementById('tszélesség').value;
+var tmagasság = document.getElementById('tmagasság').value;
+var tfelszín = 2*(thosszúság*tszélesség + thosszúság*tmagasság + tszélesség*tmagasság);
+var ttérfogat = thosszúság * tmagasság * tszélesség;
+document.getElementById("tfelszín").innerHTML="A téglatest felszíne: "+tfelszín+" cm²";
+document.getElementById("ttérfogat").innerHTML="A téglatest térfogata: "+ttérfogat+" cm³";
 }
